@@ -1,0 +1,27 @@
+h1 {
+    font-family: cursive;
+    text-decoration: none;
+}
+.infinite-scroll-component {
+    display: contents;
+}
+
+.readmore:hover {
+    font-weight: 600;
+}
+#scrollToTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+#scrollToTopButton.show {
+    display: block;
+}
+.container {
+    transition: all 0.5s;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
